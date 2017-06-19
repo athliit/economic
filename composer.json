@@ -1,0 +1,22 @@
+{
+    "name": "deseco/economic",
+    "description": "Laravel wrapper for e-conomic soap api.",
+    "keywords": ["economic","laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrzej Żmudziński",
+            "email": "jendrusha@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "guzzlehttp/guzzle": "~6.0",
+        "illuminate/support": "5.1 - 5.4"
+    },
+    "autoload": {
+        "psr-4": {
+           "Deseco\\Economic\\": "src/"
+       }
+    }
+}
