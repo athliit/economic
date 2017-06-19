@@ -1,10 +1,10 @@
 <?php
 
-namespace Deseco\Economic;
+namespace Athliit\Economic;
 
 use SoapClient;
 use GuzzleHttp\Client;
-use Deseco\Economic\Contracts\ClientInterface;
+use Athliit\Economic\Contracts\ClientInterface;
 
 class Economic implements ClientInterface
 {
@@ -61,7 +61,7 @@ class Economic implements ClientInterface
     /**
      * Connect to api
      *
-     * @return \Deseco\Economic\Economic
+     * @return \Athliit\Economic\Economic
      */
     public function connect()
     {
@@ -76,7 +76,7 @@ class Economic implements ClientInterface
      *
      * @param mixed $grantTokenOrUser
      *
-     * @return \Deseco\Economic\Economic
+     * @return \Athliit\Economic\Economic
      */
     public function setGrantToken($grantToken)
     {
@@ -90,7 +90,7 @@ class Economic implements ClientInterface
      *
      * @param string app token
      *
-     * @return \Deseco\Economic\Economic
+     * @return \Athliit\Economic\Economic
      */
     public function setAppToken($appToken)
     {
@@ -104,7 +104,7 @@ class Economic implements ClientInterface
      *
      * @param array $config
      *
-     * @return \Deseco\Economic\Economic
+     * @return \Athliit\Economic\Economic
      */
     public function setConfig($config)
     {

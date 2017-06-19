@@ -1,8 +1,8 @@
 <?php
 
-namespace Deseco\Economic\Services\Cashbook;
+namespace Athliit\Economic\Services\Cashbook;
 
-use Deseco\Economic\Services\Object;
+use Athliit\Economic\Services\Object;
 
 class CashbookObject extends Object
 {

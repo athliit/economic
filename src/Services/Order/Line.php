@@ -1,8 +1,8 @@
 <?php
 
-namespace Deseco\Economic\Services\Order;
+namespace Athliit\Economic\Services\Order;
 
-use Deseco\Economic\Contracts\ClientInterface as Client;
+use Athliit\Economic\Contracts\ClientInterface as Client;
 
 class Line
 {
@@ -12,7 +12,7 @@ class Line
     protected $client;
 
     /**
-     * \Deseco\Economic\Economic
+     * \Athliit\Economic\Economic
      */
     protected $manager;
 

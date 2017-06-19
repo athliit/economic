@@ -1,10 +1,10 @@
 <?php
 
-namespace Deseco\Economic\Services\Order;
+namespace Athliit\Economic\Services\Order;
 
 use Closure;
 use Exception;
-use Deseco\Economic\Contracts\ClientInterface as Client;
+use Athliit\Economic\Contracts\ClientInterface as Client;
 
 class Order
 {
@@ -14,7 +14,7 @@ class Order
     protected $client;
 
     /**
-     * \Deseco\Economic\Economic
+     * \Athliit\Economic\Economic
      */
     protected $manager;
 

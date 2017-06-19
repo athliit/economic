@@ -1,8 +1,8 @@
 <?php
 
-namespace Deseco\Economic;
+namespace Athliit\Economic;
 
-use Deseco\Economic\Economic;
+use Athliit\Economic\Economic;
 
 class EconomicServiceFactory
 {
@@ -11,7 +11,7 @@ class EconomicServiceFactory
      *
      * @var string
      */
-    const SERVICES_NAMESPACE = '\Deseco\Economic\Services';
+    const SERVICES_NAMESPACE = '\Athliit\Economic\Services';
 
     /**
      * Service
@@ -22,7 +22,7 @@ class EconomicServiceFactory
      * Create Economic Service
      *
      * @param string $service
-     * @param \Deseco\Economic\Economic $manager
+     * @param \Athliit\Economic\Economic $manager
      */
     public static function create($service, Economic $manager)
     {

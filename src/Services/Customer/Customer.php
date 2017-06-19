@@ -1,11 +1,11 @@
 <?php
 
-namespace Deseco\Economic\Services\Customer;
+namespace Athliit\Economic\Services\Customer;
 
 use Exception;
-use Deseco\Economic\Services\RestService;
-use Deseco\Economic\Contracts\ServiceInterface;
-use Deseco\Economic\Contracts\ClientInterface as Client;
+use Athliit\Economic\Services\RestService;
+use Athliit\Economic\Contracts\ServiceInterface;
+use Athliit\Economic\Contracts\ClientInterface as Client;
 
 class Customer extends RestService implements ServiceInterface
 {

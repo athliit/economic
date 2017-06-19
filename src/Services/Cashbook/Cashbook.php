@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Deseco\Economic\Services\Cashbook;
+namespace Athliit\Economic\Services\Cashbook;
 
-use Deseco\Economic\Services\Object;
-use Deseco\Economic\Contracts\ClientInterface as Client;
+use Athliit\Economic\Services\Object;
+use Athliit\Economic\Contracts\ClientInterface as Client;
 
 
 class Cashbook extends Object
@@ -20,7 +20,7 @@ class Cashbook extends Object
     protected $client;
 
     /**
-     * \Deseco\Economic\Economic
+     * \Athliit\Economic\Economic
      */
     protected $manager;
 

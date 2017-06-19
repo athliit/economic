@@ -1,6 +1,6 @@
 <?php
 
-namespace Deseco\Economic;
+namespace Athliit\Economic;
 
 use Illuminate\Support\Facades\Facade as LaravelFacdee;
 

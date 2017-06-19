@@ -1,14 +1,14 @@
 <?php
 
-namespace Deseco\Economic\Services\Department;
+namespace Athliit\Economic\Services\Department;
 
-use Deseco\Economic\Contracts\ClientInterface as Client;
-use Deseco\Economic\Contracts\ServiceInterface;
-use Deseco\Economic\Services\RestService;
+use Athliit\Economic\Contracts\ClientInterface as Client;
+use Athliit\Economic\Contracts\ServiceInterface;
+use Athliit\Economic\Services\RestService;
 
 /**
  * Class Department
- * @package Deseco\Economic\Services\Department
+ * @package Athliit\Economic\Services\Department
  */
 class Department extends RestService implements ServiceInterface
 {
@@ -18,14 +18,14 @@ class Department extends RestService implements ServiceInterface
     protected $client;
 
     /**
-     * @var \Deseco\Economic\Contracts\ClientInterface
+     * @var \Athliit\Economic\Contracts\ClientInterface
      */
     protected $manager;
 
     /**
      * Department constructor.
      *
-     * @param \Deseco\Economic\Contracts\ClientInterface $client
+     * @param \Athliit\Economic\Contracts\ClientInterface $client
      */
     public function __construct(Client $client)
     {

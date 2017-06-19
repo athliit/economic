@@ -1,6 +1,6 @@
 <?php
 
-namespace Deseco\Economic\Services;
+namespace Athliit\Economic\Services;
 
 abstract class RestService
 {

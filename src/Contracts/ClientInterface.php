@@ -1,6 +1,6 @@
 <?php
 
-namespace Deseco\Economic\Contracts;
+namespace Athliit\Economic\Contracts;
 
 interface ClientInterface
 {

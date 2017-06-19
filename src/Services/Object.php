@@ -1,8 +1,8 @@
 <?php
 
-namespace Deseco\Economic\Services;
+namespace Athliit\Economic\Services;
 
-use Deseco\Economic\Contracts\TypeInterface;
+use Athliit\Economic\Contracts\TypeInterface;
 
 class Object
 {

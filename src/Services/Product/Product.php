@@ -1,11 +1,11 @@
 <?php
 
-namespace Deseco\Economic\Services\Product;
+namespace Athliit\Economic\Services\Product;
 
 use Exception;
-use Deseco\Economic\Services\RestService;
-use Deseco\Economic\Contracts\ServiceInterface;
-use Deseco\Economic\Contracts\ClientInterface as Client;
+use Athliit\Economic\Services\RestService;
+use Athliit\Economic\Contracts\ServiceInterface;
+use Athliit\Economic\Contracts\ClientInterface as Client;
 
 class Product extends RestService implements ServiceInterface
 {
@@ -15,7 +15,7 @@ class Product extends RestService implements ServiceInterface
     protected $client;
 
     /**
-     * \Deseco\Economic\Economic
+     * \Athliit\Economic\Economic
      */
     protected $manager;
 
